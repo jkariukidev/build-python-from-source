@@ -6,7 +6,7 @@ Shell script for building python from source...
 
 ### Step 1: Download shell file from terminal
 ```bash
-wget https://github.com/novasush/build-python-from-source/blob/master/build_python.sh
+wget https://github.com/jkariukidev/build-python-from-source/blob/master/build_python.sh 
 ```
 
 ### Step 2: Give executable permission to `build_python.sh`
@@ -29,29 +29,29 @@ Path selected by you is: /usr/src
 
 ### (Optional)
 
-The python version i have used in this file is python3.6.9 if you wish to change version, edit the file and update following lines with the python version you wish to install in `build_python.sh`
+The python version i have used in this file is python3.10 if you wish to change version, edit the file and update following lines with the python version you wish to install in `build_python.sh`
 
 ```bash
 #line 46
-wget https://www.python.org/ftp/python/3.6.9/Python-3.6.9.tgz
+wget https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tgz
 
 #line 48
-tar xzf Python-3.6.9.tgz
+tar xzf Python-3.10.0.tgz
 
 #line 50
-cd Python-3.6.9
+cd Python-3.10.0
 
 #line 59
-python3.6 -V
+python3.10.0 -V
 
 #line 77
-python3.6 get-pip.py
+python3.10.0 get-pip.py
 
 #line 81
-pip3.6 -V
+python3.10.0 -V
 
 #line 89 and 90
-echo 'alias python=python3.6' >> ~/.bashrc
-echo 'alias pip=pip3.6' >> ~/.bashrc
+echo 'alias python=python3.10.0' >> ~/.bashrc
+echo 'alias pip=pip3.10.0' >> ~/.bashrc
 ```
 
